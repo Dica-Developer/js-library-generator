@@ -1,0 +1,24 @@
+{
+  "name": "js-library-generator",
+  "description": "Tool to automatically generate a javascript API for a set of REST URLs.",
+  "version": "0.1.0",
+  "homepage": "",
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/Dica-Developer/js-library-generator",
+      "path": "/"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt travis"
+  },
+  "dependencies": {
+    "grunt": ">=0.4.5",
+    "load-grunt-tasks": ">=1.0.0",
+    "time-grunt": ">=1.0.0"
+  }
+}
